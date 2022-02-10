@@ -1,5 +1,6 @@
 jQuery(document).ready(function() {
     "use strict";
+
     $('#slider-carousel').carouFredSel({
         responsive: true,
         width: '100%',
@@ -22,6 +23,30 @@ jQuery(document).ready(function() {
             anchorBuilder: false
         }
     });
+
+
+    $('.portfolio-carousel').carouFredSel({
+        responsive: true,
+        width: '100%',
+        circular: true,
+        prev: '#prev',
+        next: '#next',
+        scroll: {
+            items: 1,
+            duration: 500,
+            pauseOnHover: true
+        },
+        auto: true,
+        items: {
+            visible: {
+                min: 1,
+                max: 4
+            },
+            height: "variable"
+        }
+
+    });
+
 
     $(window).scroll(function() {
 
