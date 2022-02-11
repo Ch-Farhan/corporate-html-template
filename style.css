@@ -139,6 +139,16 @@ header nav ul li a:focus {
     text-align: center;
 }
 
+.blog-header {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
 .portfolio {
     color: #fff;
     background: url(img/portfolio/portfolio-bg.png);
@@ -425,4 +435,65 @@ header nav ul li a:focus {
 
 .testipager li.selected a {
     color: #e74c3c;
+}
+
+
+/***** style blog *****/
+
+.blog b.date {
+    color: #333;
+}
+
+.blog h3 a {
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.blog h3 a:hover {
+    color: #e74c3c;
+}
+
+
+/***** Contact Us section *****/
+
+.contact {
+    background: url(img/contact-bg.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:not([type=submit]),
+textarea {
+    width: 96.5%;
+    margin-bottom: 40px;
+    color: #777;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) inset;
+    border: none;
+}
+
+input:not([type=submit]) {
+    height: 40px;
+    line-height: 40px;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+#submit {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    font-weight: bold;
 }
