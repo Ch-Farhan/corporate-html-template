@@ -42,7 +42,9 @@ header nav ul li a:focus {
 
 /* ****** slider section ***** */
 
-.slider .slider ul.slider-carousel .slider ul.slider-carousel li {
+.slider,
+.slider ul.slider-carousel,
+.slider ul.slider-carousel li {
     height: 600px;
     width: 100%;
     text-align: center;
