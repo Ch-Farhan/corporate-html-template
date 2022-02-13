@@ -105,6 +105,10 @@ slicknav_menu {
     form.contact-form {
         width: 60%;
     }
+    /* Footer Responsive Style */
+    footer {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:800px) {
