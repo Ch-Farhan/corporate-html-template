@@ -97,6 +97,14 @@ slicknav_menu {
     .blog img {
         margin: 0 auto;
     }
+    .contact {
+        background: none;
+        background-color: #36767a;
+    }
+    /* Contact Form Section */
+    form.contact-form {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -139,6 +147,10 @@ slicknav_menu {
     }
     .testimonial-carousel li {
         margin: 0 50px;
+    }
+    /* Contact Form Section */
+    form.contact-form {
+        width: 80%;
     }
 }
 
