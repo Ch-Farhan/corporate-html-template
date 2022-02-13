@@ -94,7 +94,7 @@ jQuery(document).ready(function() {
 
     $(window).scroll(function() {
 
-        var top = $(window).scrollTop();
+        var top = $(window).scrollTop()
         if (top >= 60) {
             $("header").addClass('secondary-dark-blue-bg');
         } else
