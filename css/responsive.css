@@ -91,6 +91,12 @@ slicknav_menu {
         background: none;
         background-color: #0d1722;
     }
+    .blog {
+        text-align: center;
+    }
+    .blog img {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:800px) {
